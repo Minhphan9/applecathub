@@ -24,11 +24,11 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
     Title = "applecat hub bản thử nghiệm",
-    SubTitle = "Blox Fruit",
+    SubTitle = "Minh Phan",
     TabWidth = 157,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true,
-    Theme = "light",
+    Theme = "Amethvst",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
@@ -37,9 +37,9 @@ local Tabs = {
         Main2=Window:AddTab({ Title="Farm Fruit" }),
         Main3=Window:AddTab({ Title="Farm Chest" }),
         Main4=Window:AddTab({ Title="Script Hop" }),
-       Main5=Window:AddTab({ Title="lin tinh" }),
+       Main5=Window:AddTab({ Title="bananaminhphan" }),
 }
-    Tabs.Main1:AddButton({
+    Tabs.Main0:AddButton({
     Title = "Discord",
     Description = "TBoyRoblox Community",
     Callback = function()
@@ -47,7 +47,7 @@ local Tabs = {
     end
 })
 
-    Tabs.Main2:AddButton({
+    Tabs.Main0:AddButton({
     Title = "Youtuber",
     Description = "Minh phan",
     Callback = function()
@@ -55,7 +55,7 @@ local Tabs = {
     end
 })
 
-    Tabs.Main3:AddButton({
+    Tabs.Main0:AddButton({
     Title = "Youtuber",
     Description = "minhphanyeuuem",
     Callback = function()
