@@ -1,7 +1,7 @@
 -- discord.gg/tboyroblox
 
 
-shared.LoaderTitle = "Đăng Ký Kênh TBoy Roblox";
+shared.LoaderTitle = "Đăng Ký Kênh Minh Phan";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -105,7 +105,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: TBoy Roblox",
+    Text = "Youtube: Minh Phan",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -314,7 +314,7 @@ v5:Destroy();
 local v14 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))();
 local v15 = v14:CreateWindow({
     Title = "Applecat Hub",
-    SubTitle = "Blox Fruit",
+    SubTitle = "Minh Phan",
     TabWidth = 160,
     Theme = "Dark",
     Acrylic = false,
