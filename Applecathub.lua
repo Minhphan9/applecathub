@@ -1,4 +1,4 @@
--- discord.gg/tboyroblox
+-- https://discord.gg/zVehpHYV
 
 
 shared.LoaderTitle = "Đăng Ký Kênh Minh Phan";
@@ -96,7 +96,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://83190276951914",
+    Image = "rbxassetid://101693403626988",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
